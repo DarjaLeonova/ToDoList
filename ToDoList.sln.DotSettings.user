@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5d3be35a_002D9c83_002D4e97_002Db2d7_002D4c661c91d017/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddAsync_ShouldAddItem" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F44978FE-E4CD-4F2B-8690-909AB8238CBD::net6.0::TodoList.Tests.DALTests.TodoItemRepositoryTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F44978FE-E4CD-4F2B-8690-909AB8238CBD::net6.0::TodoList.Tests.BLLTests.TodoItemServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F44978FE-E4CD-4F2B-8690-909AB8238CBD::net6.0::TodoList.Tests.PLTests.TodoControllerTests.Index_ReturnsViewResult_WithListOfTodoItems&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F44978FE-E4CD-4F2B-8690-909AB8238CBD::net6.0::TodoList.Tests.PLTests.TodoControllerTests.Add_ValidModel_RedirectsToIndex&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F44978FE-E4CD-4F2B-8690-909AB8238CBD::net6.0::TodoList.Tests.PLTests.TodoControllerTests.Add_InvalidModel_ReturnsViewWithModel&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F44978FE-E4CD-4F2B-8690-909AB8238CBD::net6.0::TodoList.Tests.PLTests.TodoControllerTests.Update_ValidModel_RedirectsToIndex&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F44978FE-E4CD-4F2B-8690-909AB8238CBD::net6.0::TodoList.Tests.PLTests.TodoControllerTests.Delete_ValidId_RedirectsToIndex&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

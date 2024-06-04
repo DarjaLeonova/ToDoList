@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BLL.Models.TodoItemModel>
+
+@{
+    ViewData["Title"] = "Todo List";
+}
+
+<h1>Todo List</h1>
+
+<body>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Is Completed</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.IsCompleted</td>
+            <td>
+                <form asp-action="Update" method="post">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <input type="hidden" name="title" value="@item.Title" />
+                    <button type="submit" name="isCompleted" class="btn btn-primary" style="background: @(item.IsCompleted ? "orange" : "green")" value="@(!item.IsCompleted ? "true" : "false")">@(item.IsCompleted ? "In-Progress" : "Complete")</button>
+                </form>
+            </td>
+            <td>
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Add New Todo Item</h2>
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" name="Title" class="form-control"/>
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-success" style="background: #0a53be">Add</button>
+</form>
+</body>
